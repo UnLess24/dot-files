@@ -31,6 +31,7 @@ set tags^=.git/tags
 
 " Set NERD Tree
 map <silent> <C-n> :NERDTreeToggle<CR>
+let g:NERDTreeQuitOnOpen = 1
 " end NERD Tree
 
 " Highligts search
