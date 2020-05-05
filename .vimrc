@@ -85,7 +85,7 @@ vnoremap <Down> <nop>
 vnoremap <Right> <nop>
 
 " s{char}{char} to move to {char}{char}
-nmap " <Plug>(easymotion-overwin-f2)
+nmap <C-f> <Plug>(easymotion-overwin-f2)
 
 " Show status Bar
 
