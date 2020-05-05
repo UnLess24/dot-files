@@ -3,6 +3,7 @@ call plug#begin('~/.vim/plugged')
 
 " Plug 'lifepillar/vim-solarized8'
 Plug 'airblade/vim-gitgutter'
+Plug 'arnaud-lb/vim-php-namespace'
 Plug 'easymotion/vim-easymotion'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
