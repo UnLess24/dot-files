@@ -1,0 +1,40 @@
+set easymotion
+set surround
+set multiple-cursors
+set commentary
+set ReplaceWithRegister
+set argtextobj
+set exchange
+set textobj-entire
+set highlightedyank
+
+" Commands
+set iskeyword
+
+set backspace=indent,eol,start
+
+" set highlight to search
+set hlsearch
+set hls
+set incsearch
+
+" map key Esc to hide search highlight
+nnoremap <esc><esc> :noh<return>
+
+" set number line relative
+set number relativenumber
+
+" nomap Arrow Keys
+
+noremap <Up> <nop>
+noremap <Left> <nop>
+noremap <Down> <nop>
+noremap <Right> <nop>
+inoremap <Up> <nop>
+inoremap <Left> <nop>
+inoremap <Down> <nop>
+inoremap <Right> <nop>
+vnoremap <Up> <nop>
+vnoremap <Left> <nop>
+vnoremap <Down> <nop>
+vnoremap <Right> <nop>
