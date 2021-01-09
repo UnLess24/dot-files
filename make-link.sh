@@ -1,2 +1,4 @@
 #!/bin/sh
-ln -s ~/.dotfiles/.vimrc ~/.vimrc
+mv ~/dot-files ~/.dot-files
+ln -s ~/.dot-files/.vimrc ~/.vimrc
+cd ~
