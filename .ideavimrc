@@ -19,7 +19,8 @@ set hls
 set incsearch
 
 " map key Esc to hide search highlight
-nnoremap <esc><esc> :noh<return>
+" nnoremap <esc><esc> :noh<return>
+nnoremap <silent> <C-l> :nohlsearch<CR><C-l>
 
 " set number line relative
 set number relativenumber
