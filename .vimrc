@@ -16,6 +16,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 call plug#end()
 
@@ -86,7 +87,7 @@ vnoremap <Down> <nop>
 vnoremap <Right> <nop>
 
 " s{char}{char} to move to {char}{char}
-nmap <C-f> <Plug>(easymotion-overwin-f2)
+nmap <C-k> <Plug>(easymotion-overwin-f2)
 
 " Show status Bar
 
@@ -100,3 +101,4 @@ nmap <C-f> <Plug>(easymotion-overwin-f2)
 " set statusline +=%2*/%L%*
 " set statusline +=%1*%4v\ %*
 " set statusline +=%2*0x%04B\ %*
+
