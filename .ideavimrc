@@ -7,6 +7,7 @@ set argtextobj
 set exchange
 set textobj-entire
 set highlightedyank
+set ideajoin
 
 " Commands
 set iskeyword
