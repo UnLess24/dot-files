@@ -9,6 +9,14 @@ set textobj-entire
 set highlightedyank
 set ideajoin
 
+let mapleader = " " " map leader to space
+
+inoremap jk <esc>
+
+" Custom mappings
+xnoremap <leader>y "*y
+xnoremap <leader>p "*p
+
 " Commands
 set iskeyword
 

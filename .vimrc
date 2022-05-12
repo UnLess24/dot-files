@@ -2,6 +2,8 @@
 call plug#begin('~/.vim/plugged')
 
 " Plug 'lifepillar/vim-solarized8'
+Plug 'ellisonleao/gruvbox.nvim'
+Plug 'joshdick/onedark.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'arnaud-lb/vim-php-namespace'
 Plug 'easymotion/vim-easymotion'
@@ -12,7 +14,7 @@ Plug 'majutsushi/tagbar'
 Plug 'scrooloose/nerdcommenter'
 Plug 'scrooloose/nerdtree'
 Plug 'stanangeloff/php.vim'
-Plug 'tpope/vim-fugitive'
+" Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
@@ -25,8 +27,8 @@ set tags^=.git/sub.tags
 set tags^=.git/tags
 
 " Use colorscheme
-" set background=light
-" colorscheme solarized8
+set background=light
+" colorscheme onedark
 
 " Set mapping for leader button
 " let mapleader = ","
